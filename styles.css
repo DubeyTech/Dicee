@@ -1,0 +1,89 @@
+.container {
+  text-align: center;
+}
+.dice {
+  display: inline-block;
+  padding: 0 5%;
+}
+body {
+  background-color: #393e46;
+}
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ecca3;
+}
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+button {
+  padding: 2% 5%;
+  margin: 5% auto;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  font-weight: 900;
+  text-shadow: 2px 0 #232931;
+  color: #4ecca3;
+  border-radius: 50px;
+}
+button:focus {
+  outline: none;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  margin-top: 5%;
+  color: #eeeeee;
+  font-family: "Indie Flower", cursive;
+}
+footer a:hover {
+  color: #4ecca3;
+}
+@media screen and (max-width: 1000px) {
+  h1 {
+    margin: 20px;
+    font-size: 3.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .dice {
+    width: 40%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .dice {
+    width: 30%;
+  }
+  img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 570px) {
+  h1 {
+    margin: 20px;
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  h1 {
+    margin: 10px;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  button {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
